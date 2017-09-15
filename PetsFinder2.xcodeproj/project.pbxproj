@@ -14,6 +14,7 @@
 		73A250F91F6B5C3D00CB11CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A250F71F6B5C3D00CB11CB /* LaunchScreen.storyboard */; };
 		73A251041F6B5C3D00CB11CB /* PetsFinder2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A251031F6B5C3D00CB11CB /* PetsFinder2Tests.swift */; };
 		73A2510F1F6B5C3D00CB11CB /* PetsFinder2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2510E1F6B5C3D00CB11CB /* PetsFinder2UITests.swift */; };
+		73A2511D1F6B83D600CB11CB /* FoundControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2511C1F6B83D600CB11CB /* FoundControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73A2510A1F6B5C3D00CB11CB /* PetsFinder2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetsFinder2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A2510E1F6B5C3D00CB11CB /* PetsFinder2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsFinder2UITests.swift; sourceTree = "<group>"; };
 		73A251101F6B5C3D00CB11CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A2511C1F6B83D600CB11CB /* FoundControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				73A250EE1F6B5C3D00CB11CB /* AppDelegate.swift */,
 				73A250F01F6B5C3D00CB11CB /* ViewController.swift */,
 				73A250F21F6B5C3D00CB11CB /* Main.storyboard */,
+				73A2511C1F6B83D600CB11CB /* FoundControl.swift */,
 				73A250F51F6B5C3D00CB11CB /* Assets.xcassets */,
 				73A250F71F6B5C3D00CB11CB /* LaunchScreen.storyboard */,
 				73A250FA1F6B5C3D00CB11CB /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				73A250F11F6B5C3D00CB11CB /* ViewController.swift in Sources */,
 				73A250EF1F6B5C3D00CB11CB /* AppDelegate.swift in Sources */,
+				73A2511D1F6B83D600CB11CB /* FoundControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				73A251151F6B5C3D00CB11CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73A251161F6B5C3D00CB11CB /* Build configuration list for PBXNativeTarget "PetsFinder2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				73A251181F6B5C3D00CB11CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73A251191F6B5C3D00CB11CB /* Build configuration list for PBXNativeTarget "PetsFinder2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				73A2511B1F6B5C3D00CB11CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
